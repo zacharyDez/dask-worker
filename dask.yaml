@@ -1,0 +1,10 @@
+logging:
+  distributed: debug
+  bokeh: critical
+  tornado: critical
+
+scheduler:
+  work-stealing: False
+
+admin:
+  log-format: '%(name)s - %(levelname)s - %(message)s'
